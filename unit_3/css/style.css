@@ -1,0 +1,16 @@
+h1{
+	text-align: center;
+	font-style: bold;
+}
+
+body {
+	text-align: left;
+	color: #fff;
+	background-image: url('http://www.altinsaglik.com/images/yazi/gmw6vxa42uDollarphotoclub_73687853.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+div {
+	font-style: italic;
+	text-align: center;
+}
