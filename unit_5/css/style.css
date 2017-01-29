@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Playball');
+
+h1{
+	text-align: center;
+	font-style: bold;
+	font-family:'Playball', cursive;
+	font-size: 46px;
+}
+
+body {
+	text-align: left;
+	color: #fff;
+	background-image: url('http://www.altinsaglik.com/images/yazi/gmw6vxa42uDollarphotoclub_73687853.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family:'Arima Madurai', cursive;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+#slogan {
+	font-style: italic;
+	text-align: center;
+}
+header {
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding:20px;
+}
+nav {
+	background-color:#E8C66A;
+
+}
+section {
+	background-color:#FFE2B8;
+}
+aside {
+	background-color:#FFC675;
+}
+article {
+	background-color:#E89C6C;
+}
+footer {
+	text-align: center;
+	background-color:#FF957E;
+}
