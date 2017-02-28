@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css?family=Arima+Madurai|Playball');
+
+h1{
+	text-align: center;
+	font-style: bold;
+	font-family:'Playball', cursive;
+	font-size: 2.6em;
+}
+
+body {
+	text-align: left;
+	color: #fff;
+	background-color: white;
+	background-size: cover;
+	background-repeat: no-repeat;
+	font-family:'Arima Madurai', cursive;
+	font-size: 18px;
+	line-height: 1.5em;
+	margin: 2em;
+}
+#slogan {
+	font-style: italic;
+	text-align: center;
+}
+nav {
+	background-color: #BEDFFF;
+	border: 1px solid;
+	border-color: #1E1E61;
+}
+.navigation {
+	display: block;
+	float: left;
+	padding: 1% 1%;
+	font-size: 16px;
+	word-spacing: 1.2em;
+}
+a {
+	text-decoration: none;
+	color: #1E1E61;
+}
+a:hover {
+	background-color: white;
+}
+header {
+	background-color: white;
+	color: #1E1E61;
+	border: 1px solid;
+	border-color: #1E1E61;
+	padding: 0%;
+}
+img {
+	display: block;
+	margin: auto;
+}
+#three_column {
+	background-color: #BEDFFF;
+	border: 1px black solid;
+	padding: 2%;
+	color: #1E1E61;
+}
+.column {
+	border: 1px black solid;
+	padding: 2%;
+	width: 29%;
+	float:left;
+}
+.mainimage {
+	width: 90%;
+}
+#one {
+	background-color: #FFFFFF;
+}
+#two {
+	background-color: #FFFFFF;
+}
+#three {
+	background-color: #FFFFFF;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: "";
+	clear: both;
+	height: 0;
+}
+footer {
+	background-color: #FFFFFF;
+	clear: both;
+	border: 1px black solid;
+	text-align: center;
+	font-size: 14px;
+	color: #1E1E61;
+}
+
+@media only screen and (max-width: 995px) {
+	img {
+		width: 80%;
+	}
+	.column {
+		font-size: .8em;
+	}
+}
+
+@media only screen and (min-width: 400px) and (max-width: 708px) {
+	h1 {
+		font-size: 2em;
+	}
+	.column {
+		float: none;
+		width: 95.5%;
+	}
+	.mainimage {
+		width: 55%;
+	}
+	.navigation {
+		font-size: .8em;
+	}
+	#slogan {
+		font-size: .8em;
+	}
+}
+@media only screen and (max-width: 399px) {
+	#slogan {
+		font-size: .7em;
+	}
+	.navigation {
+		font-size: .7em;
+		float: none;
+	}
+	.column {
+		float: none;
+		width: 95.5%;
+		font-size: .5em;
+	}
+	.mainimage {
+		width: 45%;
+	}
+}
